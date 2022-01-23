@@ -8,3 +8,5 @@ for i in range (60,1258):
     y_train.append(scaled_training_set[i, 0])
 X_train = np.array(X_train)
 y_train = np.array(y_train)
+print(X_train.shape)
+print (y_train.shape)
